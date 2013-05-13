@@ -1,0 +1,24 @@
+public class Brute {
+    public static void main(String[] args){
+        String[] filename = args[0];
+        
+        In in = new In(filename);
+        int N = in.readInt();
+        Point stack[] = new Point[N];
+        for (i = 0: i<=N ;i++){
+            int x = in.readInt();
+            int y = in.readInt();
+            stack[i] = new point(x, y);
+        }
+        
+        for (i = 0; i<=N; i++){
+            for (j=i+1; j<=N; j++){
+                for (k=j+1; k<=N; k++){
+                    for (l=l+1; ;<=N; l++){
+                        
+        
+            
+        
+       
+       
+}
